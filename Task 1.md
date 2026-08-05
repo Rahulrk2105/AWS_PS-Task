@@ -912,42 +912,6 @@ This confirms that:
 | IAM Role | None |
 | Web Server | Apache HTTP Server |
 
----
-
-# Final Architecture
-
-```text
-                         Internet
-                              │
-                              ▼
-                     Internet Gateway
-                              │
-                              ▼
-                     Public Route Table
-                              │
-                              ▼
-                      Public Subnet
-                              │
-                              ▼
-                     Security Group
-                  ┌─────────────────────┐
-                  │ SSH → My Public IP  │
-                  │ HTTP → Internet     │
-                  └─────────────────────┘
-                              │
-                              ▼
-                 EC2 (Amazon Linux 2023)
-                              │
-                    Apache HTTP Server
-                              │
-                     Static HTML Website
-                              │
-                              ▼
-                     Public IPv4 Address
-                              │
-                              ▼
-                           Browser
-```
 
 ---
 
