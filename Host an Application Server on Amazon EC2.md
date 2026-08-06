@@ -1,5 +1,14 @@
-# 🚀 Host an Application Server on Amazon EC2
+# 🚀 Lab 03 – Host an Application Server on Amazon EC2
 
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Application Server](https://img.shields.io/badge/Application-Server-blue)
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Flask](https://img.shields.io/badge/Framework-Flask-green)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-Application%20Server-red)
+![systemd](https://img.shields.io/badge/Linux-systemd-success)
+![Virtual Environment](https://img.shields.io/badge/Python-Virtual%20Environment-purple)
+
+---
 
 # 🎯 Lab Objectives
 
