@@ -87,7 +87,8 @@ In this lab, I built a dedicated MariaDB database server on Amazon EC2 by instal
 
 # 📷 Infrastructure
 
-![EC2 Instance](screenshots/01-ec2-instance.png)
+<img width="1587" height="879" alt="01-ec2-instance" src="https://github.com/user-attachments/assets/84923911-8dd0-4b2e-acc9-48709bd8ba9a" />
+
 
 A dedicated EC2 instance named **Database-server** was launched to host the database independently from previous labs.
 
@@ -181,7 +182,8 @@ sudo ss -tulpn | grep 3306
 
 # 📷 MariaDB Service
 
-![MariaDB](screenshots/02-mariadb-service.png)
+<img width="1677" height="796" alt="02-mariadb-service" src="https://github.com/user-attachments/assets/45b4ba4d-50a2-40bb-aa35-8e1032bb45e2" />
+
 
 MariaDB service was successfully started and configured to launch automatically during system boot.
 
@@ -257,7 +259,8 @@ SELECT User, Host FROM mysql.user;
 
 # 📷 Database Configuration
 
-![Database](screenshots/03-database-configuration.png)
+<img width="1216" height="779" alt="03-database-configuration" src="https://github.com/user-attachments/assets/543d72e6-0dc3-4125-b80a-43a33317aacf" />
+
 
 Successfully created:
 
@@ -354,7 +357,8 @@ head -20 /opt/db-backups/companydb-*.sql
 
 # 📷 Backup Validation
 
-![Backup](screenshots/04-backup-validation.png)
+
+<img width="1553" height="754" alt="04-backup-validation" src="https://github.com/user-attachments/assets/672f795c-8f3a-41dc-8f1d-be23ccf9b23b" />
 
 Successfully generated a SQL backup containing:
 
